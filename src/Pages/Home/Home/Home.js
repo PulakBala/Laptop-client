@@ -1,9 +1,12 @@
 import React from 'react';
+import CarouselBanner from '../CarouselBanner/CarouselBanner';
+import MiniCardHome from '../MiniCardHome/MiniCardHome';
 
 const Home = () => {
     return (
         <div>
-            <h2>This is home page</h2>
+           <CarouselBanner/>
+           <MiniCardHome/>
         </div>
     );
 };

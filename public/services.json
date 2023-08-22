@@ -1,0 +1,79 @@
+[
+    {
+        "title" : "import",
+        "id" : 1, 
+         "submenu" : [
+            {
+                "subTitle" : "Commodities"
+            },
+            {
+                "subTitle": "Cardamon"
+            },
+            {
+                "subTitle": "Roasted Coffee Bean Species"
+            },
+            {
+                "subTitle": "Row Cotton"
+            },
+            {
+                "subTitle": "Food & Beverage"
+            },
+            {
+                "subTitle": "Scrap"
+            }
+         ]
+    },
+    {
+        "title" : "Export",
+        "id": 2, 
+        "submenu":[
+            {
+                "subTitle" : "Apparels"
+            },
+            {
+                "subTitle": "Jute"
+            },
+            {
+                "subTitle": "Jute Bag"
+            },
+            {
+                "subTitle":"Jute Yearn"
+            },
+            {
+                "subTitle":"Fruites"
+            }
+        ]
+    },
+    {
+        "title": "Constraction",
+        "id":3,
+        "submenu":[
+            {
+                "subTitle":"EPC Contractor"
+            },
+            {
+                "subTitle":"Human Resources"
+            }
+        ]
+    },
+    {
+        "title":"Tour & Travels",
+        "id":4,
+        "submenu":[]
+    },
+    {
+        "title":"Fashion",
+        "id": 5,
+        "submenu":[]
+    },
+    {
+        "title":"Energy",
+        "id":6,
+        "submenu":[]
+    },
+    {
+        "title":"Instrumental Finance",
+        "id":7,
+        "submenu":[]
+    }
+]
