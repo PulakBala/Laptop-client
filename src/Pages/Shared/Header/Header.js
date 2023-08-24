@@ -44,7 +44,7 @@ const Header = () => {
   //   setIsSubmenuImportOpen(false);
   // };
   return (
-    <nav className="bg-blue-500 p-4 flex justify-around">
+    <nav className="bg-blue-500 p-4 flex justify-around z-50 sticky top-0">
       <div className="flex items-center justify-between">
         <div>
           <img src="" alt="Company Logo" className="h-8" />
