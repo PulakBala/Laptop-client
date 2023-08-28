@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,17 +33,6 @@ const Header = () => {
     <div>loading...</div>
   }
 
-
-
-  // const [isSubmenuImportOpen, setIsSubmenuImportOpen] = useState(false);
-
-  // const handleItem2Hover = () => {
-  //   setIsSubmenuImportOpen(true);
-  // };
-
-  // const handleItem2Leave = () => {
-  //   setIsSubmenuImportOpen(false);
-  // };
   return (
     <nav className="bg-blue-500 p-4 flex justify-around z-50 sticky top-0">
       <div className="flex items-center justify-between">
@@ -70,9 +60,7 @@ const Header = () => {
             </a>
           </li>
           <li className="text-white">
-            <a href="/" className="hover:text-gray-200">
-              About
-            </a>
+        <Link to='/about'>About</Link>
           </li>
 
           <div className="dropdown dropdown-hover">
@@ -101,25 +89,7 @@ const Header = () => {
                 </ul>
 
               </li>
-              {/* <li
-                className="dropdown relative"
-                onMouseEnter={handleItem2Hover}
-                onMouseLeave={handleItem2Leave}
-              >
-                <label>Export</label>
-                <ul
-                  className={`dropdown-content ${
-                    isSubmenuImportOpen ? "block" : "hidden"
-                  } absolute right-full top-0 mt-0 mr-1 space-y-2 bg-base-100 w-52`}
-                >
-                  <li>
-                    <a>Sub Item 2.1</a>
-                  </li>
-                  <li>
-                    <a>Sub Item 2.2</a>
-                  </li>
-                </ul>
-              </li> */}
+              
             </ul>
           </div>
 
@@ -134,15 +104,9 @@ const Header = () => {
             </a>
           </li>
           <li className="text-white">
-            <a href="/" className="hover:text-gray-200">
-              Contact
-            </a>
+            <Link to="/contact">Contact</Link>
           </li>
-          {/* <li className="text-white">
-            <a href="/" className="hover:text-gray-200">
-              Appointment
-            </a>
-          </li> */}
+          
         </ul>
         <button className="btn btn-outline mx-4">report issue</button>
       </div>
